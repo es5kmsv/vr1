@@ -7,6 +7,7 @@
 [ext_resource path="res://dome.obj" type="ArrayMesh" id=6]
 
 [sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0.168627, 0.384314, 0.0705882, 1 )
 
 [node name="L_Main" type="Spatial"]
 script = ExtResource( 4 )
@@ -25,7 +26,7 @@ material/0 = SubResource( 1 )
 environment = ExtResource( 3 )
 
 [node name="DirectionalLight" type="DirectionalLight" parent="Lighting"]
-transform = Transform( -0.866026, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 5, 0 )
+transform = Transform( -0.544835, -0.341239, 0.76597, 0.725084, 0.267108, 0.634749, -0.421198, 0.901227, 0.101897, -2.49685, 12.1284, -1.08475 )
 shadow_enabled = true
 shadow_bias = 0.05
 directional_shadow_max_distance = 250.0
